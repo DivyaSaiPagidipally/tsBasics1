@@ -4,8 +4,8 @@ let employeeDetails: { id: number, name: string , age: number}[] = [
     { "id": 2, "name": "DivyaSai","age":22}
 ];
 let myMap = new Map<string,object>();
-var set=new Set();
-var uiqueObjects=employeeDetails.filter(function (eachItem)
+let set=new Set();
+let uiqueObjects=employeeDetails.filter(function (eachItem)
 {
     if(set.has(eachItem.name))
     {
