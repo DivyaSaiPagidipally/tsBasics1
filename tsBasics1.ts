@@ -18,13 +18,3 @@ var uiqueObjects=employeeDetails.filter(function (eachItem)
     }
 });
 console.log(uiqueObjects);
-/*for (let employee of employeeDetails)
-{
-    myMap.set(employee["name"], employee)
-}
-var iteratorValues= myMap.values();
-var uniqueEmplyeeDetails =[...iteratorValues];
-for(let i=0;i<uniqueEmplyeeDetails.length;i++)
-    {
-        console.log(uniqueEmplyeeDetails[i]);
-    }*/
